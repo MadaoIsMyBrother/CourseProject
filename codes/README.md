@@ -5,7 +5,8 @@
 - [Project Description](#project-description)
 - [Datasets](#datasets)
 - [Sentiment Models](#sentiment-models)
-- [Sentiment Analysis Fastai](#sentiment-analysis-fastai)
+- [Vaccination Progress Data Analysis](#vaccination-progress-data-analysis)
+- [Sentiment Analysis](#sentiment-analysis)
 - [Contributing](#contributing)
 - [License](#license)
 ## Project Description 
