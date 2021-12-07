@@ -3,6 +3,9 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
+- [Function of Code](#function-of-code)
+- [Implementation](#implementation)
+- [Usage](#usage)
 - [Datasets](#datasets)
 - [Sentiment Models](#sentiment-models)
 - [Vaccination Progress Data Analysis](#vaccination-progress-data-analysis)
@@ -13,6 +16,9 @@
 
 We perform sentiment analysis with a collected COVID-19 vaccines related tweets dataset to analyze the sentiment of the overall public discussion. A comparative analysis with the vaccine progress and the result of sentiment analysis of public discussion on Twitter are also conducted to provide a better understanding of how the public discussion is correlated with vaccine progress. Our task is to perform sentiment analysis on tweets about COVID-19 vaccines by using the dataset of tweets sentiments from all over the world. The datasets include tweets about people’s perspectives towards different kinds of vaccines, the number of different vaccinations per day, week, month and country over the number of people being vaccinated. By performing sentiment analysis, we can get an overall prediction of the relationship between vaccination rates and people’s discussions on Twitter.
 
+## Function of Code
+## Implementation
+## Usage
 ## Datasets
 
 > **tweets_covid_all_vaccinations**: all tweets about the COVID-19 vaccines used in entire world and they all include vaccine brands such as Pfizer/BioNTech, Sinopharm, Sinovac, Moderna and etc.
