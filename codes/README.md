@@ -63,12 +63,14 @@ In the graph, we can see there is a sharp increase in tweets sentiment scores on
 Then we performed a correlation analysis between the sentiment of tweets and the daily vaccinations number and discovered some patterns related to public discussion on vaccine and vaccination progress. On the same graph above, we discovered the number of daily vaccinations increase significantly after the sharp increase in positive discussion over the vaccine. It suggests the public discussion, especially the positive one, could be positively correlated with the vaccination progress.
 
 ## Usage
+### Pre-requisites
 Our software supports python=3.6.13 and can be run on jupyter lab. </br>
 To install the depencies, we provide a requirements.txt. You can run </br>
 <code>pip install -r requirements.txt</code> </br>
 To open the jupyter notebooks, direct to /project_path/code and type in command line:</br>
 <code>jupyter-lab</code> </br>
 
+### How to use
 After opening the jupyter notebooks, run each cell in order or simply hit this icon to run all the cells 
 ![](./figure/notebook_screenshot.png) </br>
 
