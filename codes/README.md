@@ -60,6 +60,10 @@ In the graph, we can see there is a sharp increase in tweets sentiment scores on
 
 Then we performed a correlation analysis between the sentiment of tweets and the daily vaccinations number and discovered some patterns related to public discussion on vaccine and vaccination progress. On the same graph above, we discovered the number of daily vaccinations increase significantly after the sharp increase in positive discussion over the vaccine. It suggests the public discussion, especially the positive one, could be positively correlated with the vaccination progress.
 
+## Limitation
+
+The dataset used in this study does not include a comprehensive analysis about the randomness of the selection process of tweets, which could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, as well as the correlation between sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this dataset could overrepresent or underrepresent some geographic areas. 
+
 ## Contributing
 
 
