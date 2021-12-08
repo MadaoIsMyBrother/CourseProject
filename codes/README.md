@@ -63,8 +63,28 @@ In the graph, we can see there is a sharp increase in tweets sentiment scores on
 Then we performed a correlation analysis between the sentiment of tweets and the daily vaccinations number and discovered some patterns related to public discussion on vaccine and vaccination progress. On the same graph above, we discovered the number of daily vaccinations increase significantly after the sharp increase in positive discussion over the vaccine. It suggests the public discussion, especially the positive one, could be positively correlated with the vaccination progress.
 
 ## Usage
+Our software supports python=3.6.13 and can be run on jupyter lab. </br>
+To install the depencies, we provide a requirements.txt. You can run </br>
+<code>pip install -r requirements.txt</code> </br>
+To open the jupyter notebooks, direct to /project_path/code and type in command line:</br>
+<code>jupyter-lab</code> </br>
 
+After opening the jupyter notebooks, run each cell in order or simply hit this icon to run all the cells 
+![](./figure/notebook_screenshot.png) </br>
 
+In the code directory, the correlation_analysis.ipynb contains codes to dynamically visually the vaccination progress data and codes to draw the correlation between the vaccination progress and the predicted sentiment, for example:</br>
+
+To show the vaccination progress bars plot(percent), run the cell with codes, move the slider to switch between different dates: </br>
+
+<code> plot_vaccine_progress(country_vaccine_time, countries, 'People percent', 'People percent') </code> </br>
+
+To show the vaccination progress cluster plot, run the cell below, and move the slider to switch between different dates: </br>
+
+![](./figure/cluster_cell.png) </br>
+
+To show the correlation plot, run the cell blow: </br>
+
+![](./figure/correlation_cell.png) </br>
 ## Limitation
 
 The dataset used in this study did not include a comprehensive analysis of the randomness of the selection process of tweets.  This could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, and the correlation between the sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this study could overrepresent or underrepresent some geographic areas.
