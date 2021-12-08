@@ -4,8 +4,8 @@
 
 - [Project Description](#project-description)
 - [Function of Code](#function-of-code)
+- [Datasets](#datasets)
 - [Implementation](#implementation)
-   - [Datasets](#datasets)
    - [Sentiment Models](#sentiment-models)
    - [Vaccination Progress Data Analysis](#vaccination-progress-data-analysis)
    - [Sentimental Analysis and Correlation Analysis](#sentiment-analysis-and-correlation-analysis)
