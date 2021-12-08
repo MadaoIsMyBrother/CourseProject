@@ -65,10 +65,10 @@ Then we performed a correlation analysis between the sentiment of tweets and the
 ## Usage
 - Pull from github repository with command :
   - <code>git clone https://github.com/MadaoIsMyBrother/CourseProject.git</code> </br>
-- Install all the necessary package with command:
-  - <code>pip install -r requirements.txt</code> </br>
+- Install all the necessary package with command(python=3.6.13):
+  - <code>python -m pip install -r requirements.txt</code> </br>
 - Run the code with command:
-  - <code>python3 main.py</code> </br>
+  - <code>python main.py</code> </br>
 - (Optional ) To train the model or run sections of code:
   - Direct to /project_path/code 
   - open jupyter notebook with command: 
