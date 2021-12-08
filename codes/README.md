@@ -50,11 +50,15 @@ We also visualized the total percent of vaccinated people for different countrie
 
 We also drew figures that combing "population of people vaccinated", "daily vaccinations per million", "percent of people fully vaccinated" in the same figure. Here the size of the cluster is the "Percent of fully vaccinated people" and the chosen date is 2021-5-11. This figure includes more small countries than shown in the last figure. Israel is the cluster shown in the upper left part and it is shown that it has the largest size because it has the largest percent of fully vaccinated people. 
 
-## Sentiment Analysis
+## Sentiment Analysis and Correlation Analysis
 
 ![](./figure/sentiment_vaccine.png)
 
-We make use of the CNN model trained as mentioned in the Sentiment Model section and predict the sentiments of twitter texts from 2021-1-21 to 2021-3-15. Then we get the number of positive, negative, and neutral sentiment twitters on each date. We apply the vaccination progress statistics of the United States to the same figure. Here the purple curve which is the number of daily vaccinations shows the number of daily vaccinations in the United States. We can see there are some correlations between the number of daily vaccinations and the number of positive sentiment tweets. When the number of positive sentiment tweets increases, the number of daily vaccinations also grow faster. The quick increase of daily vaccinations on some dates were also followed by a period of increasing positive tweets. And overall, we can see that when there are more positive sentiments toward the vaccines, there will be relatively larger increase of the number of daily vaccinations.
+In this study, we make use of the CNN model trained as mentioned in the Sentiment Model section and predict the sentiments of Twitter texts from 2021-1-21 to 2021-3-15. Then we get the number of positive, negative, and neutral sentiment twitters on each date. We apply the vaccination progress statistics of the United States to the same figure. Here the purple curve which is the number of daily vaccinations shows the number of daily vaccinations in the United States.
+
+In the graph, we can see there is a sharp increase in tweets sentiment scores on Feb 28th, which indicated a sharp increase in discussion about vaccinations. To understand the reason behind this sharp increase in discussion about the vaccine, we invested news released on Feb 28th about vaccination and discovered the Johnson& Johnson vaccine was approved by the FDA on Feb 28th. After this time point, there is a significant increase in the positive sentimental score of tweets and the positive tweets about vaccination exceed the neutral and negative tweets about vaccination. Overall, the sentiment analysis indicates that the general sentiment toward Covid-19 Vaccination is becoming more positive over time.
+
+Then we performed a correlation analysis between the sentiment of tweets and the daily vaccinations number and discovered some patterns related to public discussion on vaccine and vaccination progress. On the same graph above, we discovered the number of daily vaccinations increase significantly after the sharp increase in positive discussion over the vaccine. It suggests the public discussion, especially the positive one, could be positively correlated with the vaccination progress.
 
 ## Contributing
 
