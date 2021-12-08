@@ -12,11 +12,14 @@
 - [Sentiment Analysis](#sentiment-analysis)
 - [Contributing](#contributing)
 - [License](#license)
-## Project Description 
+## Project Description
 
-We perform sentiment analysis with a collected COVID-19 vaccines related tweets dataset to analyze the sentiment of the overall public discussion. A comparative analysis with the vaccine progress and the result of sentiment analysis of public discussion on Twitter are also conducted to provide a better understanding of how the public discussion is correlated with vaccine progress. Our task is to perform sentiment analysis on tweets about COVID-19 vaccines by using the dataset of tweets sentiments from all over the world. The datasets include tweets about people’s perspectives towards different kinds of vaccines, the number of different vaccinations per day, week, month and country over the number of people being vaccinated. By performing sentiment analysis, we can get an overall prediction of the relationship between vaccination rates and people’s discussions on Twitter.
+We performed sentiment analysis with a collected COVID-19 vaccines related tweets dataset to analyze the sentiment of the overall public discussion. Moreover, correlation analysis with the vaccine progress dataset and the result of sentiment analysis was also conducted to provide an overview of how the sentiments in public discussion are correlated with vaccine progress. The datasets we used include tweets about people’s perspectives on different kinds of vaccines, the number of different vaccinations per day, week, month, and countries over the number of people being vaccinated.
 
 ## Function of Code
+
+Our code has two primary functions. One is to perform sentiment analysis on tweets about COVID-19 vaccines by using the dataset of worldwide tweets sentiments. The other one is to implement correlation analysis on the vaccination progress data to discover correlations among various factors, such as vaccination rates, daily vaccination numbers among many different countries, and so on. By getting the results, we are able to see an overall picture of the relationship between vaccination rates and people’s discussions on Twitter. Therefore, for future use, we could collect tweets about COVID-19 vaccines, apply the trained model onto them to get sentiment labels, and predict the following possible trend of vaccination rate based on the patterns found through the correlation analysis.
+
 ## Implementation
 ## Usage
 ## Datasets
