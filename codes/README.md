@@ -24,11 +24,11 @@ Our code has two primary functions. One is to perform sentiment analysis on twee
 ## Implementation
 ### Datasets
 
-> **tweets_covid_all_vaccinations**: all tweets about the COVID-19 vaccines used in entire world and they all include vaccine brands such as Pfizer/BioNTech, Sinopharm, Sinovac, Moderna and etc.
+> **tweets_covid_all_vaccinations**: all tweets about the COVID-19 vaccines used in the entire world, and they all include vaccine brands such as Pfizer/BioNTech, Sinopharm, Sinovac, Moderna, etc.
 
-> **tweets_extraction**: the extraction data of tweets includes sentiment label for each of the text and marked each as positive, neutral or negative.
+> **tweets_extraction**: the extraction data of tweets includes sentiment label for each of the text and marked each as positive, neutral, or negative.
 
-> **tweets_world_vaccination**: data includes daily and total vaccination for COVID-19 in the world such as country, date, number of vaccinations
+> **tweets_world_vaccination**: data includes daily and total vaccination for COVID-19 in the world, such as country, date, number of vaccinations, and so on.
 
 ### Sentiment Models
 
