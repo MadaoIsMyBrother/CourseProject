@@ -52,9 +52,9 @@ We also drew figures that combing "population of people vaccinated", "daily vacc
 
 ## Sentiment Analysis and Correlation Analysis
 
-![](./figure/sentiment_vaccine.png)
-
 In this study, we make use of the CNN model trained as mentioned in the Sentiment Model section and predict the sentiments of Twitter texts from 2021-1-21 to 2021-3-15. Then we get the number of positive, negative, and neutral sentiment twitters on each date. We apply the vaccination progress statistics of the United States to the same figure. Here the purple curve which is the number of daily vaccinations shows the number of daily vaccinations in the United States.
+
+![](./figure/sentiment_vaccine.png)
 
 In the graph, we can see there is a sharp increase in tweets sentiment scores on Feb 28th, which indicated a sharp increase in discussion about vaccinations. To understand the reason behind this sharp increase in discussion about the vaccine, we invested news released on Feb 28th about vaccination and discovered the Johnson& Johnson vaccine was approved by the FDA on Feb 28th. After this time point, there is a significant increase in the positive sentimental score of tweets and the positive tweets about vaccination exceed the neutral and negative tweets about vaccination. Overall, the sentiment analysis indicates that the general sentiment toward Covid-19 Vaccination is becoming more positive over time.
 
