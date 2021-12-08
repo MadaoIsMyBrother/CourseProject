@@ -21,14 +21,16 @@ We performed sentiment analysis with a collected COVID-19 vaccines related tweet
 
 Our code has two primary functions. One is to perform sentiment analysis on tweets about COVID-19 vaccines by using the dataset of worldwide tweets sentiments. The other one is to implement correlation analysis on the vaccination progress data to discover correlations among various factors, such as vaccination rates, daily vaccination numbers among many different countries, and so on. By getting the results, we are able to see an overall picture of the relationship between vaccination rates and people’s discussions on Twitter. Therefore, for future use, we could collect new tweets about COVID-19 vaccines, apply the trained model onto them to get sentiment labels, and predict the following possible trend of vaccination rate based on the patterns found through the correlation analysis.
 
-## Implementation
-### Datasets
+## Datasets
 
 > **tweets_covid_all_vaccinations**: all tweets about the COVID-19 vaccines used in the entire world, and they all include vaccine brands such as Pfizer/BioNTech, Sinopharm, Sinovac, Moderna, etc.
 
 > **tweets_extraction**: the extraction data of tweets includes sentiment label for each of the text and marked each as positive, neutral, or negative.
 
 > **tweets_world_vaccination**: data includes daily and total vaccination for COVID-19 in the world, such as country, date, number of vaccinations, and so on.
+
+
+## Implementation
 
 ### Sentiment Models
 
