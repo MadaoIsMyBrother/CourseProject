@@ -69,7 +69,7 @@ Then we performed a correlation analysis between the sentiment of tweets and the
   - <code>python -m pip install -r requirements.txt</code> </br>
 - Run the code with command:
   - <code>python main.py</code> </br>
-- (Optional ) To train the model or run sections of code:
+- (Optional) To train the model or run sections of code:
   - Direct to /project_path/code 
   - open jupyter notebook with command: 
     - <code>jupyter-lab</code> </br>
@@ -80,6 +80,7 @@ Then we performed a correlation analysis between the sentiment of tweets and the
 The dataset used in this study did not include a comprehensive analysis of the randomness of the selection process of tweets.  This could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, and the correlation between the sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this study could overrepresent or underrepresent some geographic areas.
 
 ## Contributing
-- Qiao Jiang(qiaoj2) proposals the idea of the project, conduct sentimental analysis and construct the document and ppt for final presentaion. 
+- Qiao Jiang (qiaoj2) proposals the idea of the project, conduct sentimental analysis and construct the document and ppt for final presentaion.
+- Xinyi Fang (xinyif5) learnes and implements the setiment models.
 
 ## License
