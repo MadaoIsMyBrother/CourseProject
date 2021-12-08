@@ -62,7 +62,7 @@ Then we performed a correlation analysis between the sentiment of tweets and the
 
 ## Limitation
 
-The dataset used in this study does not include a comprehensive analysis about the randomness of the selection process of tweets, which could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, as well as the correlation between sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this dataset could overrepresent or underrepresent some geographic areas. 
+The dataset used in this study did not include a comprehensive analysis of the randomness of the selection process of tweets.  This could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, and the correlation between the sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this study could overrepresent or underrepresent some geographic areas.
 
 ## Contributing
 
