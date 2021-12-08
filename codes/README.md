@@ -8,7 +8,6 @@
 - [Datasets](#datasets)
 - [Sentiment Models](#sentiment-models)
 - [Vaccination Progress Data Analysis](#vaccination-progress-data-analysis)
-- [Sentiment Analysis and Correlation Analysis](#Sentiment Analysis and Correlation Analysis)
 - [Usage](#usage)
 - [Limitation](#Limitation)
 - [Contributing](#contributing)
