@@ -11,7 +11,7 @@
    - [Sentimental Analysis and Correlation Analysis](#sentiment-analysis-and-correlation-analysis)
 - [Usage](#usage)
 - [Limitation](#limitation)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [License](#license)
 
 ## 1) An overview of the function of the code (i.e., what it does and what it can be used for). 
@@ -83,14 +83,11 @@ The dataset used in this study did not include a comprehensive analysis of the r
     - <code>jupyter-lab</code> </br>
   - Run each cell in order
 
-
-
 ## 4) Brief description of contribution of each team member in case of a multi-person team. 
-### Contributing
+### Contribution
 - Qiao Jiang (qiaoj2) proposed the idea of the project, conducted sentimental analysis and constructed documents and the ppt for final presentation.
 - Xinyi Fang (xinyif5) learned and implemented the sentiment models, tunes the parameters in order to get the model with the best performance, and contributed to document writings and the ppt for final presentation.
 - Zejie Zhou (zejie2) visualized the vaccination progress data and drew the correlation between vaccination progress and predicted sentiment data, and constructed documents and the ppt for final presentation.
 - Jingze He (jingzeh2) preprocessed the datasets and contributed for the document and presentation.
-
 
 ## License
