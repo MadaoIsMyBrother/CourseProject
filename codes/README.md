@@ -87,5 +87,6 @@ The dataset used in this study did not include a comprehensive analysis of the r
 ### Contributing
 - Qiao Jiang (qiaoj2) proposals the idea of the project, conduct sentimental analysis and construct the document and ppt for final presentaion.
 - Xinyi Fang (xinyif5) learns and implements the sentiment models.
+- Zejie Zhou (zejie2) visualized the vaccination progress data and drew the correlation between vaccination progress and predicted sentiment data
 
 ## License
