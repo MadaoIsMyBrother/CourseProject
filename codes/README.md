@@ -74,7 +74,7 @@ The dataset used in this study did not include a comprehensive analysis of the r
 - Install all the necessary package with command(python=3.6.13):
   - <code>python -m pip install -r requirements.txt</code> </br>
 - Install GoogleNews-vectors-negative300.bin (https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g) and insert it into the codes blocks as blow:
-- <code>word2vec = models.KeyedVectors.load_word2vec_format('/your/path/to/GoogleNews-vectors-negative300.bin.gz', binary=True)</code> </br>
+   - <code>word2vec = models.KeyedVectors.load_word2vec_format('/your/path/to/GoogleNews-vectors-negative300.bin.gz', binary=True)</code> </br>
 - Run the code with command:
   - <code>python main.py</code> </br>
 - (Optional) To train the model or run sections of code:
