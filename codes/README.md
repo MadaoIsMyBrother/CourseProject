@@ -87,8 +87,10 @@ The dataset used in this study did not include a comprehensive analysis of the r
 
 ## 4) Brief description of contribution of each team member in case of a multi-person team. 
 ### Contributing
-- Qiao Jiang (qiaoj2) proposals the idea of the project, conduct sentimental analysis and construct the document and ppt for final presentaion.
-- Xinyi Fang (xinyif5) learns and implements the sentiment models.
-- Zejie Zhou (zejie2) visualized the vaccination progress data and drew the correlation between vaccination progress and predicted sentiment data
+- Qiao Jiang (qiaoj2) proposed the idea of the project, conducted sentimental analysis and constructed documents and the ppt for final presentation.
+- Xinyi Fang (xinyif5) learned and implemented the sentiment models, tunes the parameters in order to get the model with the best performance, and contributed to document writings and the ppt for final presentation.
+- Zejie Zhou (zejie2) visualized the vaccination progress data and drew the correlation between vaccination progress and predicted sentiment data, and constructed documents and the ppt for final presentation.
+- Jingze He (jingzeh2) preprocessed the datasets and contributed for the document and presentation.
+
 
 ## License
