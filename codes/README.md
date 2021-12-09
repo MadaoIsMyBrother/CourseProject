@@ -14,25 +14,24 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-1) An overview of the function of the code (i.e., what it does and what it can be used for). 
-## Project Description
+## 1) An overview of the function of the code (i.e., what it does and what it can be used for). 
+### Project Description
 
 We performed sentiment analysis with a collected COVID-19 vaccines related tweets dataset to analyze the sentiment of the overall public discussion. Moreover, correlation analysis with the vaccine progress dataset and the result of sentiment analysis was also conducted to provide an overview of how the sentiments in public discussion are correlated with vaccine progress. The datasets we used include tweets about people’s perspectives on different kinds of vaccines, the number of different vaccinations per day, week, month, and countries over the number of people being vaccinated.
 
-## Function of Code
+### Function of Code
 
 Our code has two primary functions. One is to perform sentiment analysis on tweets about COVID-19 vaccines by using the dataset of worldwide tweets sentiments. The other one is to implement correlation analysis on the vaccination progress data to discover correlations among various factors, such as vaccination rates, daily vaccination numbers among many different countries, and so on. By getting the results, we are able to see an overall picture of the relationship between vaccination rates and people’s discussions on Twitter. Therefore, for future use, we could collect new tweets about COVID-19 vaccines, apply the trained model onto them to get sentiment labels, and predict the following possible trend of vaccination rate based on the patterns found through the correlation analysis.
 
-## Datasets
 
+## 2) Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement.
+
+### Datasets
 > **tweets_covid_all_vaccinations**: all tweets about the COVID-19 vaccines used in the entire world, and they all include vaccine brands such as Pfizer/BioNTech, Sinopharm, Sinovac, Moderna, etc.
 
 > **tweets_extraction**: the extraction data of tweets includes sentiment label for each of the text and marked each as positive, neutral, or negative.
 
 > **tweets_world_vaccination**: data includes daily and total vaccination for COVID-19 in the world, such as country, date, number of vaccinations, and so on.
-
-2) Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement.
-## Implementation
 
 ### Sentiment Models
 
@@ -63,9 +62,13 @@ In this study, we make use of the CNN model trained as mentioned in the Sentimen
 In the graph, we can see there is a sharp increase in tweets sentiment scores on Feb 28th, which indicated an increment of discussion about vaccinations. To understand the reason behind this sharp increase in discussion about the vaccine, we invested news released on Feb 28th about vaccination and discovered the Johnson & Johnson vaccine was approved by the FDA on Feb 28th. After this time point, there is a significant increase in the positive sentimental score of tweets and the positive tweets about vaccination exceed the neutral and negative tweets about vaccination. Overall, the sentiment analysis indicates that the general sentiment toward Covid-19 Vaccination is becoming more positive over time.
 
 Then we performed a correlation analysis between the sentiment of tweets and the daily vaccinations number and discovered some patterns related to public discussion on vaccine and vaccination progress. On the same graph above, we discovered the number of daily vaccinations increase significantly after the sharp increase in positive discussion over the vaccine. It suggests the public discussion, especially the positive one, could be positively correlated with the vaccination progress.
+
+### Limitation
+
+The dataset used in this study did not include a comprehensive analysis of the randomness of the selection process of tweets.  This could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, and the correlation between the sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this study could overrepresent or underrepresent some geographic areas.
  
-3) Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run a software, whichever is applicable. 
-## Usage
+## 3) Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run a software, whichever is applicable. 
+### Usage
 - Pull from github repository with command :
   - <code>git clone https://github.com/MadaoIsMyBrother/CourseProject.git</code> </br>
 - Install all the necessary package with command(python=3.6.13):
@@ -78,12 +81,10 @@ Then we performed a correlation analysis between the sentiment of tweets and the
     - <code>jupyter-lab</code> </br>
   - Run each cell in order
 
-## Limitation
 
-The dataset used in this study did not include a comprehensive analysis of the randomness of the selection process of tweets.  This could introduce some bias toward the sentiment analysis of the public discussion of vaccines on Twitter, and the correlation between the sentiment of tweets with the daily vaccination progress. As a result, the analysis presented by this study could overrepresent or underrepresent some geographic areas.
 
-4) Brief description of contribution of each team member in case of a multi-person team. 
-## Contributing
+## 4) Brief description of contribution of each team member in case of a multi-person team. 
+### Contributing
 - Qiao Jiang (qiaoj2) proposals the idea of the project, conduct sentimental analysis and construct the document and ppt for final presentaion.
 - Xinyi Fang (xinyif5) learns and implements the sentiment models.
 
